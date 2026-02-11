@@ -8,7 +8,6 @@ namespace Domain.Models
 {
     public class SessionModel
     {
-        [Key]
         public Guid SessionId { get; set; }
         public Guid AccountId { get; set; }
         public string? RefreshToken { get; set; }

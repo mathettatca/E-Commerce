@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(EntityContext))]
-    [Migration("20260210071504_UpdateDomain")]
-    partial class UpdateDomain
+    [Migration("20260211012308_UpdateDomainDropLoginAndSessionModel")]
+    partial class UpdateDomainDropLoginAndSessionModel
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
