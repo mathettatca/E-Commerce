@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Service\Authentication\Authentication.API\Authentication.API.csproj" />
   <Project Path="BuildingBlock\Domain\Domain.csproj" />
   <Project Path="BuildingBlock\Infrastructure\Infrastructure.csproj" />
 </Solution>
