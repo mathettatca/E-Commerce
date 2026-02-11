@@ -1,5 +1,4 @@
 <Solution>
-  <Project Path="Domain/Domain.csproj" />
-  <Project Path="Infrastructure/Infrastructure.csproj" />
-  <Project Path="Migration/Migration.csproj" />
+  <Project Path="BuildingBlock\Domain\Domain.csproj" />
+  <Project Path="BuildingBlock\Infrastructure\Infrastructure.csproj" />
 </Solution>
