@@ -12,7 +12,7 @@ namespace Infrastructure.mongodb.Repository
         Task CreateManyAsync(IEnumerable<T> entities);
 
         // READ
-        Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter = null);
+        Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null);
         Task<T> GetByIdAsync(Expression<Func<T, bool>> filter);
 
         // UPDATE
